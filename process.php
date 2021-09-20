@@ -1,6 +1,6 @@
 <?php
     
-    $score = 80;
+    $score = $_GET['data1'];
     if ($score >= 80) {
         echo "Your grade is A.";
     } 
