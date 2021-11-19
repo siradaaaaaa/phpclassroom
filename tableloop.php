@@ -2,7 +2,7 @@
   <head>
   </head>
   <body>
-    <table border="100">
+    <table border="1">
        <?php
       for($i=0;$i<5;$i++){
           echo "<tr>";
