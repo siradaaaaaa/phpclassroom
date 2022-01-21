@@ -10,17 +10,42 @@
     
     <style>
       #header{
-        height: 60px;
+        height: 160px;
         background-color: orange;
+      }
+      #sidebar{
+        height: 450px;
+        background-color: green;
+      }
+      #content{
+        height: 450px;
+        background-color: gray;
+      }
+      #footer{
+        height: 200px;
+        background-color: pink;
       }
     </style>
     
   </head>
   <body> 
-    <div class="container">
+    <div class="container"> <!-- คอนเทนเนอร์ -->
       <div class="row">
-        <div class="col-12" id="header">
+        <div class="col-12" id="header"> <!-- เฮดเดอร์ -->
           <h1>Header</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3" id="sidebar"> <!-- ไซด์บาร์ -->
+          <h1>Sidebar</h1>
+        </div>
+        <div class="col-9" id="content"> <!-- คอนเท้นต์ -->
+          <h1>Content</h1>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col-12" id="footer"> <!-- ฟุตเตอร์ -->
+          <h1>Footer</h1>
         </div>
       </div>
     </div>  
