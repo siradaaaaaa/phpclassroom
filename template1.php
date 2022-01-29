@@ -11,7 +11,7 @@
     <style>
       #header{
         height: 160px;
-        background-color: orange;
+        background-color: yellow;
       }
       #sidebar{
         height: 450px;
@@ -23,7 +23,7 @@
       }
       #footer{
         height: 200px;
-        background-color: pink;
+        background-color: purple;
       }
     </style>
     
